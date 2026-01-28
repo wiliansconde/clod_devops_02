@@ -5,7 +5,7 @@ app = FastAPI(title="Calculadora API")
 @app.get("/")
 def root():
     return {
-        "message": "v4 API de Calculadora no ar",
+        "message": "v7 API de Calculadora no ar",
         "operations": ["soma", "subtracao", "multiplicacao", "divisao"]
     }
 
