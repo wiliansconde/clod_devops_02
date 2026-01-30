@@ -1,11 +1,11 @@
 from fastapi import FastAPI, HTTPException
 
-app = FastAPI(title="Calculadora API")
+app = FastAPI(title="v05.01 Calculadora API")
 
 @app.get("/")
 def root():
     return {
-        "message": "v05 API de Calculadora no ar",
+        "message": "v05.01 API de Calculadora no ar",
         "operations": ["soma", "subtracao", "multiplicacao", "divisao"]
     }
 
