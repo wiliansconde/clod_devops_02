@@ -17,6 +17,10 @@ def health():
 def soma(a: float, b: float):
     return {"resultado": a + b}
 
+@app.get("/soma3")
+def soma3(a: float, b: float, c: float):
+    return {"resultado": a + b + c}
+
 @app.get("/subtracao")
 def subtracao(a: float, b: float):
     return {"resultado": a - b}
